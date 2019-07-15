@@ -8,7 +8,7 @@ trigger:
 - master
 
 schedules:
-  - cron: '15 * * * *'
+  - cron: '30 * * * *'
     displayName: Daily Check each 30 min
     branches:
       include:
