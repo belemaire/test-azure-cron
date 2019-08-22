@@ -4,11 +4,8 @@
 # https://aka.ms/yaml
 # Add a comment
 
-trigger:
-- master
-
 schedules:
-  - cron: '30 * * * *'
+  - cron: '15 * * * *'
     displayName: Daily Check each 30 min
     branches:
       include:
